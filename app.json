@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "task-manager-rn",
-    "slug": "task-manager-rn",
+    "slug": "task_manager_rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.alexzero.task_manager_rn"
     },
     "web": {
       "bundler": "metro",
@@ -41,7 +42,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "69424808-a638-44ea-b371-f9761840ba16"
+        "projectId": "bb4589e3-f58e-400e-a341-9371991f79cc"
       }
     },
     "owner": "alex_zero"
