@@ -34,7 +34,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
   const handleStatusToggle = () => {
     const statusOrder: TaskStatus[] = ["In Progress", "Completed", "Cancelled"];
     const currentIndex = statusOrder.indexOf(status);
-    const nextIndex = (currentIndex + 1) % statusOrder.length; // Циклический переход
+    const nextIndex = (currentIndex + 1) % statusOrder.length;
     const newStatus = statusOrder[nextIndex];
     onChangeStatus(id, newStatus);
   };

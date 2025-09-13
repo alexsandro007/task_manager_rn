@@ -57,7 +57,7 @@ const useTodo = () => {
   // 🔹 Сортировка
   const sortedTodos = [...todos].sort((a, b) => {
     if (sortBy === "date") {
-      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime(); // новые выше
+      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
     }
     if (sortBy === "status") {
       const statusOrder: TaskStatus[] = ["In Progress", "Completed", "Cancelled"];
